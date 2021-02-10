@@ -32,25 +32,33 @@ class _MyFooterState extends State<MyFooter> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                Text(
+                  'Contact Us',
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   // crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    FooterIcon(
-                      icon: FontAwesomeIcons.phoneAlt,
-                      onPress: () {
-                        print('y');
-                        setState(() {
-                          _openUrl('tel:+918574758395');
-                        });
-                      },
-                    ),
+                    // FooterIcon(
+                    //   icon: FontAwesomeIcons.phoneAlt,
+                    //   onPress: () {
+                    //     print('y');
+                    //     setState(() {
+                    //       _openUrl('tel:+918574758395');
+                    //     });
+                    //   },
+                    // ),
                     FooterIcon(
                       icon: FontAwesomeIcons.envelope,
                       onPress: () {
                         print('y');
                         setState(() {
-                          _openUrl('mailto:asmit.vml.962@gmail.com');
+                          _openUrl('mailto:fastcodeenvato@gmail.com');
                         });
                       },
                     ),
@@ -60,13 +68,12 @@ class _MyFooterState extends State<MyFooter> {
                         print('y');
                         setState(() {
                           _openUrl(
-                              "https://wa.me/+918574758395?text=Your Message Here!");
+                              "https://wa.me/+919315066314?text=Your Message Here!");
                         });
                       },
                     ),
                   ],
                 ),
-                Text('Contact Us'),
                 // Text('Copyright © 2021 TradeMark Inc.'),
               ],
             ),

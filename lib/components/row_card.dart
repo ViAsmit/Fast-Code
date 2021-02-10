@@ -10,7 +10,7 @@ class RowCard extends StatelessWidget {
     return Column(
       children: [
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             MyCard(img: img1, link: link1),
             MyCard(img: img2, link: link2),

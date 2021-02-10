@@ -16,11 +16,16 @@ dependencies:
   webview_flutter: ^1.0.7
   font_awesome_flutter: ^8.11.0
   url_launcher: ^5.7.10
-  flutter_open_whatsapp: ^0.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true,
+  image_path: "images/logo.png"
 
 flutter:
 
